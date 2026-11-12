@@ -7,6 +7,7 @@ frontend-run.log
 frontend-error.log
 dev.log
 dev-error.log
+submission.html
 
 # Keep draft templates in git but never commit a filled-in version
 # with personal customer details. When ready to export,
