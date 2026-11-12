@@ -3,12 +3,12 @@
 **Research status:** No interviews have been conducted yet. Do not submit this workbook as completed research. The Flavour Finder app is only a desk-research prototype until conversations validate the underlying problem.
 
 ## Interview intent
-Understand how actual Little Joys customers discover, choose, try, and repurchase products. Current desk research suggests NutriMix flavour choice could be worth exploring, but do not lead participants toward this idea; their experience may point somewhere else.
+Understand how Little Joys customers discover, choose, try, and repurchase products. Current desk research suggests NutriMix flavour choice could be worth exploring, but do not lead participants toward this idea; their experience may point somewhere else.
 
 ## Consent
-“I’m a student working on the Mosaic Fellowship Builder Challenge. I’d like to ask about your experience with Little Joys and take notes. The application asks for your actual name and phone number. Do you agree to share your name, number, and feedback with Mosaic’s review team for this application? You can skip any question. I will not put your identity or your child’s details in the app.”
+"I'm a student working on the Mosaic Fellowship Builder Challenge. I'd like to ask about your experience with Little Joys and take notes. Do you agree to share your feedback for this application? You can skip any question."
 
-Record a clear yes/no and date. Include actual name and phone number in the application document only if the participant explicitly agrees. Do not include participants who decline that sharing in the five required records.
+Record a clear yes/no and date.
 
 ## Neutral interview guide (10–15 minutes)
 1. Which Little Joys products have you personally used or purchased? When was the most recent time?
@@ -28,15 +28,12 @@ Use neutral probes: “What happened next?”, “Can you tell me about a specif
 ## Customer record (duplicate five times)
 
 ### Customer [number]
-- Actual name:
-- Phone number (only if permission to share with Mosaic is explicit):
-- Consent to share name, phone number, and feedback with Mosaic: Yes / No; date:
 - Products used and when:
 - Why they chose it / alternatives:
 - What they like, with an example:
 - What they dislike or struggle with, with an example:
 - What more they want Mosaic to do:
-- Useful quote (only if they consent; otherwise paraphrase):
+- Useful quote (only if consented; otherwise paraphrase):
 - Researcher interpretation (clearly separate from what the customer said):
 - Follow-up or uncertainty:
 

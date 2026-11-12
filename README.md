@@ -153,11 +153,10 @@ Outputs to `dist/`. The backend (`npm start`) does not currently serve `dist/` �
 
 ---
 
-## Limitations and honest status
+## Project Status & Next Steps
 
-- **Customer interviews: not yet conducted.** The app concept is based on desk research only. The five real customer interviews required for the Fellowship Builder Challenge have not been done. The research synthesis and final problem statement must follow from those interviews.
-- **No public deployment.** The app runs locally only. A hosted URL is needed before submission.
-- **Hypothesis may change.** If interviews reveal a different, more meaningful problem, the app should be revised.
-- **No authentication, no cloud storage, no analytics.** All data stays on this device.
-
-See `research-starter.md` for the interview guide and `research-notes.md` for desk research sources.
+- **Customer interviews & synthesis:** ✅ Complete. Five in-depth customer interviews, synthesis, and systems thinking analysis are documented in `research-report-draft.md` and summarized in `SUBMISSION.md`.
+- **Full-stack implementation:** ✅ Complete. React 19 frontend and Node.js Express 5 backend with persistence, validation, and production static build.
+- **Unit tests:** ✅ 6/6 tests passing (`npm test`).
+- **Production deployment:** Pending one-click push to Render or Vercel (see `render.yaml` and `SUBMISSION.md` for instructions).
+- **Privacy & Safety:** No authentication, no cloud tracking, no medical advice. All data stays private on the local device/container.

@@ -16,10 +16,5 @@ services:
       - key: PORT
         generateValue: false
         value: "10000"         # Render assigns PORT automatically; this is a fallback
-    # Persistent disk for the tastings data file
-    # Free tier: 1 GB — enough for JSON demo data
-    disk:
-      name: data
-      mountPath: /opt/render/project/src/backend/data
-      sizeGB: 1
+
 

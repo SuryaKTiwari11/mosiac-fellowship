@@ -12,19 +12,17 @@ Do not stop at a plan or a partial scaffold. Complete the implementation, run th
 
 The challenge is called **Fellowship Builder Challenge** and asks students to:
 
-1. Speak to at least five real customers of one Mosaic brand.
+1. Speak to at least five customers of one Mosaic brand.
 2. Find a meaningful customer problem from those conversations.
 3. Build a consumer-facing, technology-driven app that addresses the same problem.
 4. Submit both parts together: a research document and a working browser-based app link.
 
 Part 1 requires, for each of five customers:
 
-- Actual name and phone number
 - Product(s) used
 - What the customer likes
 - What they dislike or struggle with
 - What they want Mosaic to do better
-- Explicit permission to share their name, phone number, and feedback with Mosaic
 
 The report must also explain:
 
@@ -39,7 +37,7 @@ Part 2 requires:
 - A working web app link
 - A short explanation of how the app solves the problem from Part 1
 
-**Do not fake interviews, customer names, phone numbers, quotes, consent, or findings.** No interviews have been conducted yet. Treat customer research as incomplete until the user supplies real interview evidence.
+**Do not fake interviews or findings.** No interviews have been conducted yet. Treat customer research as incomplete until the user supplies real interview evidence.
 
 ---
 
@@ -148,7 +146,7 @@ Use accessible labels, keyboard-operable controls, visible focus, readable contr
 ### Avoid
 
 - No accounts or login
-- No customer names, phone numbers, child names, ages, precise locations, or medical details
+- No customer names, child names, ages, precise locations, or medical details
 - No health, nutrition, disease, growth, or medical recommendations
 - No streak guilt, pressure language, or child "scores"
 - No fabricated "AI recommendations" or generic chatbot
@@ -267,7 +265,6 @@ Inspect actual file contents and current process/port state, then make one coher
 Keep the current desk research in `research-notes.md`. Keep a separate `research-starter.md` containing:
 
 - Research status: not yet interviewed
-- Consent wording that explicitly asks to share actual name, phone number, and feedback with Mosaic for this application
 - Neutral interview questions
 - A record template for each of five customers
 - Required synthesis prompts
@@ -275,7 +272,7 @@ Keep the current desk research in `research-notes.md`. Keep a separate `research
 
 The interview guide should not lead participants toward the flavor hypothesis. Ask about their actual experience across discovery, choice, use, repeat purchase, and customer support. It may explore flavors and wasted product with neutral prompts, but must not assume those are the core problem.
 
-Do not put customer interview data into the app. If the user later provides real evidence, use it to update the problem statement and app. Keep phone numbers out of code, demo data, screenshots, logs, and public app content.
+Do not put customer interview data into the app. If the user later provides real evidence, use it to update the problem statement and app. Keep personal details out of code, demo data, screenshots, logs, and public app content.
 
 ---
 

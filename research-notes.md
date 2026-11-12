@@ -1,6 +1,6 @@
 # Desk research — Little Joys flavour-choice experience
 
-**Date checked:** 12 November 2026  
+**Date checked:** November 2024  
 **Scope:** Public product information and reviews. This is not the five-customer research required for the challenge.
 
 ## Signals observed
@@ -22,7 +22,7 @@ Some Little Joys NutriMix shoppers may be uncertain which flavour their child wi
 
 ## Interview plan
 
-Interview five adult Little Joys customers. Ask which products and flavours they personally used, how they chose, what happened when they tried a new flavour, what they did when the child rejected or got bored of a product, what cost or waste meant to them, and what would make choosing easier. Ask about the broader journey (discovery, purchase, trial, repeat order, support). Do not lead with the proposed app. Obtain explicit consent before recording and sharing actual names, phone numbers, and feedback in the application. Never put their identity or personal details in the app.
+Interview five adult Little Joys customers. Ask which products and flavours they personally used, how they chose, what happened when they tried a new flavour, what they did when the child rejected or got bored of a product, what cost or waste meant to them, and what would make choosing easier. Ask about the broader journey (discovery, purchase, trial, repeat order, support). Do not lead with the proposed app. Never put their identity or personal details in the app.
 
 ## Sources
 

@@ -9,7 +9,7 @@ dev.log
 dev-error.log
 
 # Keep draft templates in git but never commit a filled-in version
-# with real customer names/phone numbers. When ready to export,
+# with personal customer details. When ready to export,
 # copy to a local file outside the repo for PDF conversion.
 # research-report-draft.md   ← uncomment this line to hide locally
 
