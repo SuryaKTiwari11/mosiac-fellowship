@@ -1,0 +1,25 @@
+# Render deployment config
+# Free tier — one web service, single process, no DB needed.
+# Docs: https://render.com/docs/yaml-spec
+
+services:
+  - type: web
+    name: little-joys-flavour-finder
+    runtime: node
+    region: singapore          # closest to India; change to ohio/frankfurt if preferred
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        generateValue: false
+        value: "10000"         # Render assigns PORT automatically; this is a fallback
+    # Persistent disk for the tastings data file
+    # Free tier: 1 GB — enough for JSON demo data
+    disk:
+      name: data
+      mountPath: /opt/render/project/src/backend/data
+      sizeGB: 1
+

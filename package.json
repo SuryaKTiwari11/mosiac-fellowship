@@ -1,0 +1,28 @@
+{
+  "name": "little-joys-flavour-finder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev":          "concurrently -k --names \"ui,api\" --prefix-colors \"cyan,green\" \"npm:dev:frontend\" \"npm:dev:backend\"",
+    "dev:frontend": "vite --config frontend/vite.config.js",
+    "dev:backend":  "node backend/index.js",
+    "build":        "vite build --config frontend/vite.config.js",
+    "start":        "node backend/index.js",
+    "build:start":  "npm run build && npm run start",
+    "test":         "node backend/test.mjs"
+  },
+  "dependencies": {
+    "express":   "^5.1.0",
+    "react":     "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite":  "^4.3.5",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.2.0",
+    "tailwindcss":  "^4.3.5",
+    "vite":         "^7.1.0"
+  }
+}

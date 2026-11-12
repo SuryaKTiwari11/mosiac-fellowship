@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', Arial, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --color-ink: #29342d;
+  --color-muted: #7a8279;
+  --color-green: #426549;
+  --color-green-light: #eaf0e5;
+  --color-line: #e5e6de;
+  --color-paper: #f8f7f2;
+  --color-white-warm: #fffefa;
+  --color-cocoa-bg: #ece3d7;
+  --color-cocoa-fg: #7b5b41;
+  --color-berry-bg: #f1e2e3;
+  --color-berry-fg: #b36876;
+  --color-vanilla-bg: #f1eddc;
+  --color-vanilla-fg: #ae9451;
+  --color-gold: #dfaf55;
+  --color-gold-muted: #cfaa5f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Visible focus ring for keyboard users */
+:focus-visible {
+  outline: 2px solid #426549;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
